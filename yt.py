@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template_string, redirect
 import datetime
+import os
 import requests
 import ipaddress
 from user_agents import parse
@@ -12,7 +13,7 @@ app = Flask(__name__)
 # This will be your LocalTunnel URL
 # Get it after running lt command
 REDIRECT_URL ='https://www.facebook.com/share/1HJk7Pqfap/'
-PORT = 5011
+PORT = int(os.environ.get("PORT", 5011))
 
 # YouTube video details
 VIDEO_ID = 'dQw4w9WgXcQ'

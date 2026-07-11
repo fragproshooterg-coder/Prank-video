@@ -12,7 +12,7 @@ app = Flask(__name__)
 # ============================================
 # This will be your LocalTunnel URL
 # Get it after running lt command
-REDIRECT_URL ='https://www.facebook.com/share/1HJk7Pqfap/'
+REDIRECT_URL ='https://facebook.com/groups/1148870722930868/'
 PORT = int(os.environ.get("PORT", 5011))
 
 # YouTube video details

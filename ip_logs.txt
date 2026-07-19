@@ -1,0 +1,3194 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:20:53
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 31.13.103.11
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Odense
+║   Region:     83
+║   Country:    Denmark
+║   Postal:     N/A
+║   Timezone:   Europe/Copenhagen
+║   Latitude:   55.3945
+║   Longitude:  10.3903
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:02
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.171.231.27
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Eagle Mountain
+║   Region:     UT
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Denver
+║   Latitude:   40.3141
+║   Longitude:  -112.0069
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:03
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.69.1
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       DeKalb
+║   Region:     IL
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.9295
+║   Longitude:  -88.7504
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:07
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.70.13
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Gallatin
+║   Region:     TN
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   36.3834
+║   Longitude:  -86.4512
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:08
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.69.20
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       DeKalb
+║   Region:     IL
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.9295
+║   Longitude:  -88.7504
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:08
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.63.184.32
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Social Circle
+║   Region:     GA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/New_York
+║   Latitude:   33.6562
+║   Longitude:  -83.7182
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:09
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.69.1
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       DeKalb
+║   Region:     Illinois
+║   Country:    US
+║   Postal:     60115
+║   Timezone:   America/Chicago
+║   Latitude:   41.9295
+║   Longitude:  -88.7504
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS32934 Facebook, Inc.
+║   Org:        AS32934 Facebook, Inc.
+║   AS Number:  AS32934
+║   AS Name:    Facebook, Inc.
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:31
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.105.64
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       West Jordan
+║   Region:     UT
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Denver
+║   Latitude:   40.598
+║   Longitude:  -111.9619
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:31
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.107.9
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Sandston
+║   Region:     VA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/New_York
+║   Latitude:   37.5235
+║   Longitude:  -77.3158
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:36
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.70.62
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Gallatin
+║   Region:     TN
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   36.3834
+║   Longitude:  -86.4512
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:21:36
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:24:14
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:29:57
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Oppo RMX3930 (Android)
+║   Browser:    Facebook
+║   Full UA:    Mozilla/5.0 (Linux; Android 14; RMX3930 Build/UP1A.231005.007; wv) AppleWebKit/5...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:30:02
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Oppo RMX3930 (Android)
+║   Browser:    Facebook
+║   Full UA:    Mozilla/5.0 (Linux; Android 14; RMX3930 Build/UP1A.231005.007; wv) AppleWebKit/5...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:30:09
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.70.18
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Gallatin
+║   Region:     TN
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   36.3834
+║   Longitude:  -86.4512
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 01:49:46
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Oppo RMX3930 (Android)
+║   Browser:    Facebook
+║   Full UA:    Mozilla/5.0 (Linux; Android 14; RMX3930 Build/UP1A.231005.007; wv) AppleWebKit/5...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 02:37:58
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 02:38:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 02:39:39
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 02:42:06
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 02:58:47
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 02:59:01
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 05:21:44
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 05:24:07
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 05:54:05
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 11:21:51
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 11:22:59
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 11:29:48
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 11:32:11
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 108.177.77.104
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Singapore
+║   Region:     01
+║   Country:    Singapore
+║   Postal:     N/A
+║   Timezone:   Asia/Singapore
+║   Latitude:   1.2762
+║   Longitude:  103.8
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Other)
+║   Browser:    Other
+║   Full UA:    Google...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 11:51:14
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 11:51:53
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    WhatsApp
+║   Full UA:    WhatsApp/3.0.0.0 A...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 12:50:18
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 15:57:42
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    WhatsApp
+║   Full UA:    WhatsApp/2.23.20.0...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 15:57:58
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 15:59:08
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 17:18:44
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 17:25:42
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 17:25:48
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 17:43:11
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 17:51:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    WhatsApp
+║   Full UA:    WhatsApp/3.0.0.0 A...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:08:22
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.83.10
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.41
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.63.184.26
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Social Circle
+║   Region:     GA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/New_York
+║   Latitude:   33.6562
+║   Longitude:  -83.7182
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.12
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.4
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Samsung SM-A032M (Android)
+║   Browser:    Facebook
+║   Full UA:    Mozilla/5.0 (Linux; Android 12; SM-A032M Build/SP1A.210812.016; wv) AppleWebKit/...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.33
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.36
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Samsung SM-A032M (Android)
+║   Browser:    Facebook
+║   Full UA:    Mozilla/5.0 (Linux; Android 12; SM-A032M Build/SP1A.210812.016; wv) AppleWebKit/...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     iPhone (iOS)
+║   Browser:    Mobile Safari
+║   Full UA:    Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHT...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:10:58
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.87.26
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Fort Worth
+║   Region:     TX
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   32.7254
+║   Longitude:  -97.3208
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     iPhone (iOS)
+║   Browser:    Mobile Safari
+║   Full UA:    Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHT...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:12:15
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.16
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     iPhone (iOS)
+║   Browser:    Mobile Safari
+║   Full UA:    Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHT...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:33:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:33:34
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 66.249.83.102
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Linux)
+║   Browser:    GooglePlusBot
+║   Full UA:    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      True
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:34:14
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:35:11
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.112
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:35:11
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.171.234.113
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Hillsboro
+║   Region:     OR
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   45.526
+║   Longitude:  -122.9874
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:35:14
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.87.26
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Fort Worth
+║   Region:     TX
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   32.7254
+║   Longitude:  -97.3208
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:35:21
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.7
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:35:23
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.63.184.33
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Social Circle
+║   Region:     GA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/New_York
+║   Latitude:   33.6562
+║   Longitude:  -83.7182
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     iPhone (iOS)
+║   Browser:    Instagram
+║   Full UA:    Instagram 436.0.0.24.53 (iPhone16,2; iOS 26_5; en_US; en; scale=3.00; 1290x2796;...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:36:19
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.63.184.22
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Social Circle
+║   Region:     GA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/New_York
+║   Latitude:   33.6562
+║   Longitude:  -83.7182
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:37:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.171.234.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Hillsboro
+║   Region:     OR
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   45.526
+║   Longitude:  -122.9874
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:38:07
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:38:07
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:39:32
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Oppo RMX3930 (Android)
+║   Browser:    Instagram
+║   Full UA:    Mozilla/5.0 (Linux; Android 14; RMX3930 Build/UP1A.231005.007; wv) AppleWebKit/5...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:39:44
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.87.37
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Fort Worth
+║   Region:     TX
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   32.7254
+║   Longitude:  -97.3208
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:39:47
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.87.28
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Fort Worth
+║   Region:     TX
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   32.7254
+║   Longitude:  -97.3208
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 18:39:47
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.4
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Linux)
+║   Browser:    Chrome
+║   Full UA:    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/14...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 19:05:29
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     25028RN03A (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 15; 25028RN03A Build/AP3A.240905.015.A2) AppleWebKit...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 19:05:31
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 64.233.173.102
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 19:05:31
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 64.233.173.102
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 19:05:32
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 64.233.173.96
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 20:24:55
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 86.107.55.67
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       New York
+║   Region:     NY
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/New_York
+║   Latitude:   40.7218
+║   Longitude:  -74.0094
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        M247 Europe SRL
+║   Org:        Bestnet Service SRL
+║   AS Number:  AS9009 M247 Europe SRL
+║   AS Name:    M247
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Oppo RMX3910 (Android)
+║   Browser:    Instagram
+║   Full UA:    Mozilla/5.0 (Linux; Android 16; RMX3910 Build/BP2A.250605.015; wv) AppleWebKit/5...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      True
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 20:35:03
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 21:12:16
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 22:48:25
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 23:24:38
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 23:25:18
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 66.249.88.69
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Linux)
+║   Browser:    GooglePlusBot
+║   Full UA:    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 23:29:02
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-09 23:29:03
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:09:24
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:09:39
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 66.249.83.102
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Linux)
+║   Browser:    GooglePlusBot
+║   Full UA:    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      True
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:10:37
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.62
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:10:40
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.28
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:11:30
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.70.6
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Gallatin
+║   Region:     TN
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   36.3834
+║   Longitude:  -86.4512
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:12:17
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.87.9
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Fort Worth
+║   Region:     TX
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   32.7254
+║   Longitude:  -97.3208
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:13:39
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:29:00
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 01:29:06
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 02:49:49
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 12:24:40
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 108.177.77.107
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Singapore
+║   Region:     01
+║   Country:    Singapore
+║   Postal:     N/A
+║   Timezone:   Asia/Singapore
+║   Latitude:   1.2762
+║   Longitude:  103.8
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Other)
+║   Browser:    Other
+║   Full UA:    Google...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 17:44:08
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Oppo RMX3930 (Android)
+║   Browser:    Instagram
+║   Full UA:    Mozilla/5.0 (Linux; Android 14; RMX3930 Build/UP1A.231005.007; wv) AppleWebKit/5...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 17:53:56
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.21
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     25028RN03A (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 15; 25028RN03A Build/AP3A.240905.015.A2) AppleWebKit...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 17:53:57
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 64.233.173.98
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 17:56:04
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:01:42
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 103.178.67.19
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Dhaka
+║   Region:     C
+║   Country:    Bangladesh
+║   Postal:     N/A
+║   Timezone:   Asia/Dhaka
+║   Latitude:   23.7254
+║   Longitude:  90.4189
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        AS132298 Antaranga Dot Com Ltd
+║   Org:        AS132298 Antaranga Dot Com Ltd
+║   AS Number:  AS132298 Antaranga Dot Com Ltd
+║   AS Name:    ADCL-AS-AP
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     K (Android)
+║   Browser:    Chrome Mobile
+║   Full UA:    Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:08:25
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.171.234.112
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Hillsboro
+║   Region:     OR
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   45.526
+║   Longitude:  -122.9874
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:08:27
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 69.171.234.5
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Hillsboro
+║   Region:     OR
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   45.526
+║   Longitude:  -122.9874
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:08:56
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.25
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     OnePlus GM1917 (Android)
+║   Browser:    Facebook
+║   Full UA:    Mozilla/5.0 (Linux; Android 12; GM1917 Build/SKQ1.211113.001; wv) AppleWebKit/53...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:08:57
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.82.47
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Springfield
+║   Region:     NE
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.0765
+║   Longitude:  -96.1438
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Other)
+║   Browser:    Facebook
+║   Full UA:    [FBAN/FB4A;FBAV/568.0.0.46.74;FBBV/1008693793;FBDM/{density=3.0,width=1080,heigh...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:09:38
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 173.252.95.13
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Altoona
+║   Region:     IA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Chicago
+║   Latitude:   41.6473
+║   Longitude:  -93.4744
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Facebook, Inc.
+║   Org:        Facebook, Inc.
+║   AS Number:  AS32934 Facebook, Inc.
+║   AS Name:    FACEBOOK
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    FacebookBot
+║   Full UA:    facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    False
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 18:09:53
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 66.249.83.42
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Mountain View
+║   Region:     CA
+║   Country:    United States
+║   Postal:     N/A
+║   Timezone:   America/Los_Angeles
+║   Latitude:   37.4225
+║   Longitude:  -122.085
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        Google LLC
+║   Org:        Google LLC
+║   AS Number:  AS15169 Google LLC
+║   AS Name:    GOOGLE
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Other (Linux)
+║   Browser:    GooglePlusBot
+║   Full UA:    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      True
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 20:28:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════╗
+║ VISITOR DETAILS - 2026-07-10 20:28:28
+╠══════════════════════════════════════════════════════════════╣
+║ IP ADDRESS: 195.54.162.45
+╠══════════════════════════════════════════════════════════════╣
+║ LOCATION INFORMATION:
+║   City:       Amsterdam
+║   Region:     NH
+║   Country:    The Netherlands
+║   Postal:     N/A
+║   Timezone:   Europe/Amsterdam
+║   Latitude:   52.3712
+║   Longitude:  4.9044
+╠══════════════════════════════════════════════════════════════╣
+║ NETWORK INFORMATION:
+║   ISP:        SECOM
+║   Org:        PE Dobrogivskiy Muroslav Petrovich
+║   AS Number:  AS21100 GREEN FLOID LLC
+║   AS Name:    ITLDC-EU
+╠══════════════════════════════════════════════════════════════╣
+║ DEVICE INFORMATION:
+║   Device:     Spider (Other)
+║   Browser:    SurliBot
+║   Full UA:    SurliBot...
+╠══════════════════════════════════════════════════════════════╣
+║ FLAGS:
+║   Mobile:     False
+║   Proxy:      False
+║   Hosting:    True
+╚══════════════════════════════════════════════════════════════╝
+[2026-07-19 18:16:34] IP: 192.168.0.217 | Geo: Local/Private IP | Device: K (Android) | Browser: Chrome Mobile

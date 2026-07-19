@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survival Island - Rival Queens</title>
+    <style>
+        body { font-family: system-ui, sans-serif; margin: 0; background: #0a140f; color: #ddd; }
+        #chat { height: 60vh; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 14px; background: #08100c; }
+        .message { max-width: 78%; padding: 14px 18px; border-radius: 18px; line-height: 1.5; }
+        .user { align-self: flex-end; background: #1e8a4a; color: white; }
+        .ai { align-self: flex-start; background: #1f2a24; border-left: 5px solid; }
+        .ledger { background: #11281a; border-left-color: #f1c40f; font-family: monospace; font-size: 0.9em; }
+        .char-name { font-weight: bold; margin-bottom: 6px; font-size: 0.95em; }
+        #resources { background: #11281a; padding: 12px; margin: 10px; border-radius: 10px; font-size: 0.95em; }
+        #input-area { display: flex; padding: 12px; background: #111; gap: 8px; position: sticky; bottom: 0; }
+        #message-input { flex: 1; padding: 14px; border-radius: 9999px; border: none; background: #222; color: white; }
+        button { padding: 14px 24px; background: #1e8a4a; color: white; border: none; border-radius: 9999px; cursor: pointer; }
+        .event { color: #e74c3c; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div style="padding:12px; background:#0c1a12; text-align:center;">
+        <strong>🏝️ Survival Island - Day <span id="day">1</span></strong>
+    </div>
+
+    <div id="resources">
+        Food: <span id="food">12</span> | Wood: <span id="wood">9</span> | Tools: <span id="tools">5</span>
+    </div>
+
+    <div id="chat"></div>
+
+    <div id="input-area">
+        <input type="text" id="message-input" placeholder="Your actions (work, give resources, decisions...)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        let day = 1;
+        let resources = { food: 12, wood: 9, tools: 5 };
+        let happiness = {
+            Ludmilla: 45,
+            Astrid: 40,
+            Lancolet: 42,
+            Elmania: 38
+        };
+        let distributions = {
+            Ludmilla: {food:0, wood:0},
+            Astrid: {food:0, wood:0},
+            Lancolet: {food:0, wood:0},
+            Elmania: {food:0, wood:0}
+        };
+
+        let characters = [
+            { name:"Ludmilla", color:"#c0392b", rival:"Astrid", style:"authoritative tactical" },
+            { name:"Astrid", color:"#e67e22", rival:"Ludmilla", style:"witty elegant" },
+            { name:"Lancolet", color:"#8e44ad", rival:"Elmania", style:"perceptive psychological" },
+            { name:"Elmania", color:"#16a085", rival:"Lancolet", style:"practical inventive" }
+        ];
+
+        let messages = [];
+        let recentContext = [];
+        
+        // Dynamic Event Chains
+        let activeEventChain = null;
+        let chainProgress = 0;
+        
+        const eventChains = {
+            "nayoirScouts": {
+                name: "Nayoir Threat",
+                steps: [
+                    "Nayoir scouts spotted near the eastern ridge. They seem to be watching us.",
+                    "A scout was caught near camp. He revealed they are planning a raid.",
+                    "The Nayoir launch a night attack! Defenses will determine survival."
+                ],
+                outcomes: {
+                    good: "The group repels the raid thanks to strong preparations.",
+                    bad: "The raid causes heavy losses. Resources and morale suffer."
+                }
+            },
+            "tigorPack": {
+                name: "Tigor Pack",
+                steps: [
+                    "Tigor pack howls grow closer at night.",
+                    "A Tigor is spotted circling the camp. It looks hungry and bold.",
+                    "The pack attacks the food stores!"
+                ],
+                outcomes: {
+                    good: "The pack is driven off. You gain respect.",
+                    bad: "Significant food is lost. Tension rises."
+                }
+            },
+            "stormShelter": {
+                name: "Approaching Storm",
+                steps: [
+                    "Dark clouds gather. A major storm is coming.",
+                    "Winds pick up. The current shelter looks weak.",
+                    "The storm hits hard."
+                ],
+                outcomes: {
+                    good: "Reinforced shelter holds. Everyone is safe.",
+                    bad: "The shelter collapses. Major resource loss."
+                }
+            }
+        };
+
+        function updateUI() {
+            document.getElementById('day').textContent = day;
+            document.getElementById('food').textContent = resources.food;
+            document.getElementById('wood').textContent = resources.wood;
+            document.getElementById('tools').textContent = resources.tools;
+        }
+
+        function addMessage(text, isUser = false, name = '', color = '', isLedger = false) {
+            messages.push({text, isUser, name, color});
+            const chat = document.getElementById('chat');
+            const div = document.createElement('div');
+            div.className = `message ${isUser ? 'user' : (isLedger ? 'ledger' : 'ai')}`;
+            if (name) {
+                const n = document.createElement('div');
+                n.className = 'char-name';
+                n.style.color = color;
+                n.textContent = name;
+                div.appendChild(n);
+            }
+            div.innerHTML += text;
+            chat.appendChild(div);
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        function logLedger() {
+            let log = `<strong>[DAY ${day}]</strong><br>`;
+            log += `Food Collected: ${Math.floor(Math.random()*6)+4}<br>`;
+            log += `Wood Collected: ${Math.floor(Math.random()*5)+3}<br><br>`;
+            log += `<strong>GIVEN TO:</strong><br>`;
+            Object.keys(distributions).forEach(name => {
+                log += `${name}: Food ${distributions[name].food} | Wood ${distributions[name].wood}<br>`;
+            });
+            log += `<br><strong>HAPPINESS (influence):</strong><br>`;
+            Object.keys(happiness).forEach(name => {
+                log += `${name}: ${happiness[name]}%<br>`;
+            });
+            addMessage(log, false, "The Village Ledger", "#f1c40f", true);
+        }
+
+        function triggerRandomEvent() {
+            if (activeEventChain) return; // Don't start new if chain active
+
+            // 30% chance to start a chain
+            if (Math.random() < 0.3) {
+                const chainKeys = Object.keys(eventChains);
+                const chainKey = chainKeys[Math.floor(Math.random() * chainKeys.length)];
+                activeEventChain = chainKey;
+                chainProgress = 0;
+                
+                const chain = eventChains[chainKey];
+                addMessage(`<span class="event">Event Chain Started: ${chain.name}</span>`, false, "Island", "#e74c3c");
+                addMessage(`<span class="event">${chain.steps[0]}</span>`, false, "Island", "#e74c3c");
+                chainProgress = 1;
+                return;
+            }
+
+            // Regular random event
+            const events = [
+                "A rare fruit grove is discovered, but guarded.",
+                "One of the women finds an old map fragment.",
+                "Strange ruins are spotted inland."
+            ];
+            const event = events[Math.floor(Math.random() * events.length)];
+            addMessage(`<span class="event">Event: ${event}</span>`, false, "Island", "#e74c3c");
+            
+            Object.keys(happiness).forEach(k => {
+                happiness[k] = Math.max(20, Math.min(95, happiness[k] + (Math.random()*6 - 3)));
+            });
+        }
+
+        function advanceEventChain() {
+            if (!activeEventChain) return;
+            
+            const chain = eventChains[activeEventChain];
+            if (chainProgress < chain.steps.length) {
+                addMessage(`<span class="event">${chain.steps[chainProgress]}</span>`, false, "Island", "#e74c3c");
+                chainProgress++;
+            } else {
+                // Resolve chain
+                const success = Math.random() > 0.45; // influenced by player choices later
+                const outcome = success ? chain.outcomes.good : chain.outcomes.bad;
+                addMessage(`<span class="event">Chain Resolved: ${outcome}</span>`, false, "Island", success ? "#2ecc71" : "#e74c3c");
+                
+                if (!success) {
+                    resources.food = Math.floor(resources.food * 0.7);
+                    resources.wood = Math.floor(resources.wood * 0.75);
+                } else {
+                    happiness.Ludmilla += 8;
+                    happiness.Astrid += 5;
+                }
+                updateUI();
+                activeEventChain = null;
+                chainProgress = 0;
+            }
+        }
+
+        function simulateDailyGain() {
+            resources.food += Math.floor(Math.random() * 5) + 3;
+            resources.wood += Math.floor(Math.random() * 4) + 2;
+            day++;
+            updateUI();
+            logLedger();
+            
+            if (activeEventChain) {
+                advanceEventChain();
+            } else if (Math.random() > 0.55) {
+                triggerRandomEvent();
+            }
+        }
+
+        function parseResourceGive(text) {
+            const match = text.match(/give (\d+) (food|wood) to (\w+)/i);
+            if (match) {
+                const amt = parseInt(match[1]);
+                const type = match[2].toLowerCase();
+                let target = match[3].charAt(0).toUpperCase() + match[3].slice(1).toLowerCase();
+                if (distributions[target]) {
+                    if (resources[type] >= amt) {
+                        resources[type] -= amt;
+                        distributions[target][type] += amt;
+                        happiness[target] = Math.min(98, happiness[target] + Math.floor(amt * 1.8));
+                        updateUI();
+                        return `Gave ${amt} ${type} to ${target}.`;
+                    }
+                }
+            }
+            return null;
+        }
+
+        async function generateComplexResponse(character, userText) {
+            const lower = userText.toLowerCase();
+            let response = "";
+
+            const rival = character.rival;
+            const isFavored = happiness[character.name] > 55;
+
+            // React to active event chain
+            if (activeEventChain) {
+                const chain = eventChains[activeEventChain];
+                if (lower.includes("defend") || lower.includes("prepare") || lower.includes("fortify")) {
+                    response = `Smart move. ${chain.name} won't catch us off guard if we listen to me.`;
+                    happiness[character.name] += 6;
+                } else if (lower.includes("ignore") || lower.includes("run")) {
+                    response = `That's reckless. We need a real plan.`;
+                } else {
+                    response = `This ${chain.name.toLowerCase()} situation is escalating. What are your orders?`;
+                }
+            } 
+            // Normal complex responses
+            else if (lower.includes("work") || lower.includes("gather") || lower.includes("hunt")) {
+                response = character.name === "Ludmilla" ? 
+                    "Good. Discipline wins the day. But we must secure the perimeter before nightfall." :
+                    character.name === "Elmania" ? 
+                    "I calculated the best foraging zones. Efficiency increased by 42% with my new traps." :
+                    "While you toil, the others bicker. I see what they truly want.";
+            } 
+            else if (lower.includes(rival.toLowerCase())) {
+                response = `That ${rival.toLowerCase()} is playing you. Her kind always does.`;
+            } 
+            else if (lower.includes("give") || lower.includes("gift") || lower.includes("share")) {
+                if (isFavored) {
+                    response = "You continue to show wisdom. I won't forget this.";
+                } else {
+                    response = `While others receive your favor, I continue proving my value through results.`;
+                }
+            } 
+            else if (lower.includes("plan") || lower.includes("build") || lower.includes("defend")) {
+                response = `My approach: ${character.style}. The others will complain, but it works.`;
+            } 
+            else {
+                const phrases = [
+                    "The island tests us all differently...",
+                    "I notice how you look at her when she speaks.",
+                    "We could do better if you trusted my judgment more.",
+                    "Careful. Jealousy is becoming dangerous."
+                ];
+                response = phrases[Math.floor(Math.random() * phrases.length)];
+            }
+
+            // Mood flavor
+            if (happiness[character.name] > 70) response = "❤️ " + response;
+            if (happiness[character.name] < 35) response = "😠 " + response;
+
+            await new Promise(r => setTimeout(r, 800 + Math.random() * 900));
+            addMessage(response, false, character.name, character.color);
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('message-input');
+            const text = input.value.trim();
+            if (!text) return;
+
+            addMessage(text, true);
+            input.value = '';
+
+            const resourceMsg = parseResourceGive(text);
+            if (resourceMsg) {
+                addMessage(resourceMsg, false, "System", "#aaa");
+            }
+
+            // Multiple characters respond with depth
+            const shuffled = [...characters].sort(() => 0.5 - Math.random());
+            const numResponders = Math.random() > 0.4 ? 2 : 1;
+            
+            shuffled.slice(0, numResponders).forEach((char, i) => {
+                setTimeout(() => generateComplexResponse(char, text), i * 1200);
+            });
+
+            // Occasional Ledger + Event / Chain
+            if (Math.random() > 0.65) {
+                setTimeout(() => {
+                    simulateDailyGain();
+                }, 2200);
+            } else if (activeEventChain && Math.random() > 0.5) {
+                setTimeout(advanceEventChain, 1800);
+            }
+        }
+
+        // Initialize
+        window.onload = () => {
+            updateUI();
+            addMessage("The boat sank. You and four formidable women are the only survivors.", false, "Narrator", "#bbb");
+            setTimeout(() => addMessage("We need order. I will lead.", false, "Ludmilla", characters[0].color), 900);
+            setTimeout(() => addMessage("Order? Only a fool follows brute force blindly.", false, "Astrid", characters[1].color), 1900);
+            setTimeout(logLedger, 2800);
+        };
+
+        document.getElementById('message-input').addEventListener('keypress', e => {
+            if (e.key === "Enter") sendMessage();
+        });
+    </script>
+</body>
+</html>

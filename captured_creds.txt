@@ -1,0 +1,117 @@
+=== CAPTURED CREDENTIALS ===
+
+============================================================
+Timestamp: 2026-07-08 15:04:45.894209
+IP Address: 127.0.0.1
+User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36
+Email: shelu.akhter@yahoo.com
+Password: shelu rahman
+============================================================
+
+[2026-07-08 15:19:37.967144] Credentials:
+Email: simple14reaction75@gmail.com
+Password: romel alam
+
+============================================================
+Time: 2026-07-09 02:47:48.116568
+IP: 127.0.0.1
+Email: romelalam76@gmail.com
+Password: romelbqlm
+============================================================
+
+============================================================
+Time: 2026-07-09 02:48:30.388607
+IP: 127.0.0.1
+Email: simple14reaction75@gmail.com
+Password: rlmel alam
+============================================================
+
+============================================================
+Time: 2026-07-09 02:50:05.306385
+IP: 127.0.0.1
+Email: romelalam76@gmail.com
+Password: romel alam
+============================================================
+
+======================================================================
+Time: 2026-07-14 02:54:17.813992
+Email: simple14reaction75@gmail.com
+Password: jhwjwj
+IP: 127.0.0.1
+======================================================================
+
+======================================================================
+Time: 2026-07-14 02:54:31.196031
+Email: simple14reaction75@gmail.com
+Password: romelRML8+
+IP: 127.0.0.1
+======================================================================
+
+======================================================================
+Time: 2026-07-14 02:54:45.207417
+Email: simple14reaction75@gmail.com
+Password: romelRML8+
+IP: 127.0.0.1
+======================================================================
+
+======================================================================
+Time: 2026-07-14 02:58:20.618619
+Email: simple14reaction75@gmail.com
+Password: romelRML8+
+IP: 127.0.0.1
+======================================================================
+
+======================================================================
+Time: 2026-07-14 03:01:15.259729
+Email: simple14reaction75@gmail.com
+Password: 4kgnn
+IP: 127.0.0.1
+======================================================================
+
+======================================================================
+Time: 2026-07-14 03:01:36.064968
+Email: simple14reaction75@gmail.com
+Password: romelRML8+
+IP: 127.0.0.1
+======================================================================
+
+======================================================================
+Time: 2026-07-14 03:04:03.544904
+Email: simple14reaction75@gmail.com
+Password: romelRML8+
+IP: 127.0.0.1
+======================================================================
+
+============================================================
+TIME: 2026-07-19 18:41:29.204321
+EMAIL: simple14reaction75@gmail.com
+PASSWORD: romel alma
+IP: 127.0.0.1
+CITY: Private/Local
+REGION: Private
+COUNTRY: Private
+ISP: Private Network
+ORG: Private
+BROWSER: Google Chrome 150.0.0.0
+OS: Android
+DEVICE TYPE: Mobile Phone
+DEVICE MODEL: Unknown
+USER-AGENT: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+============================================================
+
+============================================================
+TIME: 2026-07-19 18:45:01.529629
+EMAIL: shelu.akhter@yahoo.com
+PASSWORD: shelu islam
+IP: 127.0.0.1
+CITY: Private/Local
+REGION: Private
+COUNTRY: Private
+ISP: Private Network
+ORG: Private
+BROWSER: Google Chrome 150.0.0.0
+OS: Android
+DEVICE TYPE: Mobile Phone
+DEVICE MODEL: Unknown
+USER-AGENT: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+============================================================

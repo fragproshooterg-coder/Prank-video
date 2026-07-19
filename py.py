@@ -4,22 +4,21 @@ from datetime import datetime
 import ipaddress
 import re
 import os
+import html
 
 app = Flask(__name__)
 
 
 # =====================================================
-# GET REAL VISITOR IP
+# GET VISITOR IP
 # =====================================================
 
 def get_real_ip():
 
-    # Proxy headers
+    # Render/proxy header
     forwarded = request.headers.get("X-Forwarded-For")
 
     if forwarded:
-        # Example:
-        # client_ip, proxy_ip, proxy_ip
         return forwarded.split(",")[0].strip()
 
     real_ip = request.headers.get("X-Real-IP")
@@ -44,12 +43,12 @@ def is_private_ip(ip):
 
 
 # =====================================================
-# GEOLOCATION
+# GEOLOCATION USING IP-API
 # =====================================================
 
 def get_geo_info(ip):
 
-    # Private IP
+    # Private/local IP
     if is_private_ip(ip):
 
         return {
@@ -67,93 +66,27 @@ def get_geo_info(ip):
         }
 
 
-    # Try ipinfo.io
-    try:
-
-        response = requests.get(
-            f"https://ipinfo.io/{ip}/json",
-            timeout=10
-        )
-
-        print("IPINFO STATUS:", response.status_code)
-
-        data = response.json()
-
-        print("IPINFO DATA:", data)
-
-        org = data.get("org", "Unknown")
-
-        # Example:
-        # AS12345 Example ISP
-        asn = org.split()[0] if org else "N/A"
-
-        return {
-
-            "ip": data.get("ip", ip),
-
-            "city": data.get(
-                "city",
-                "Unknown"
-            ),
-
-            "region": data.get(
-                "region",
-                "Unknown"
-            ),
-
-            "country": data.get(
-                "country",
-                "Unknown"
-            ),
-
-            "isp": org,
-
-            "org": org,
-
-            "timezone": data.get(
-                "timezone",
-                "Unknown"
-            ),
-
-            "loc": data.get(
-                "loc",
-                "0,0"
-            ),
-
-            "postal": data.get(
-                "postal",
-                "N/A"
-            ),
-
-            "hostname": data.get(
-                "hostname",
-                "N/A"
-            ),
-
-            "asn": asn
-
-        }
-
-
-    except Exception as error:
-
-        print("IPINFO ERROR:", error)
-
-
-    # Fallback API
     try:
 
         response = requests.get(
 
-            f"http://ip-api.com/json/{ip}"
-            "?fields=status,message,city,regionName,"
-            "country,isp,org,timezone,lat,lon,as",
+            f"http://ip-api.com/json/{ip}",
+
+            params={
+                "fields": (
+                    "status,message,query,city,regionName,"
+                    "country,countryCode,isp,org,as,"
+                    "timezone,lat,lon,zip"
+                )
+            },
 
             timeout=10
 
         )
 
+
         data = response.json()
+
 
         print("IP-API DATA:", data)
 
@@ -162,7 +95,10 @@ def get_geo_info(ip):
 
             return {
 
-                "ip": ip,
+                "ip": data.get(
+                    "query",
+                    ip
+                ),
 
                 "city": data.get(
                     "city",
@@ -195,11 +131,16 @@ def get_geo_info(ip):
                 ),
 
                 "loc": (
+
                     f"{data.get('lat', 0)},"
                     f"{data.get('lon', 0)}"
+
                 ),
 
-                "postal": "N/A",
+                "postal": data.get(
+                    "zip",
+                    "N/A"
+                ),
 
                 "hostname": "N/A",
 
@@ -211,12 +152,24 @@ def get_geo_info(ip):
             }
 
 
+        print(
+            "IP-API ERROR:",
+            data.get(
+                "message",
+                "Unknown error"
+            )
+        )
+
+
     except Exception as error:
 
-        print("IP-API ERROR:", error)
+        print(
+            "GEOLOCATION ERROR:",
+            error
+        )
 
 
-    # If both APIs fail
+    # If API fails
 
     return {
 
@@ -246,7 +199,7 @@ def get_geo_info(ip):
 
 
 # =====================================================
-# BROWSER / DEVICE INFORMATION
+# BROWSER AND DEVICE INFORMATION
 # =====================================================
 
 def get_browser_info(user_agent):
@@ -267,13 +220,6 @@ def get_browser_info(user_agent):
             ua
         )
 
-        version = (
-            match.group(1)
-            if match
-            else
-            "Unknown"
-        )
-
 
     elif "opr" in ua or "opera" in ua:
 
@@ -284,12 +230,33 @@ def get_browser_info(user_agent):
             ua
         )
 
-        version = (
-            match.group(1)
-            if match
-            else
-            "Unknown"
-        )
+
+    elif "whatsapp" in ua:
+
+        browser = "WhatsApp Browser"
+
+        match = None
+
+
+    elif "telegram" in ua:
+
+        browser = "Telegram Browser"
+
+        match = None
+
+
+    elif "instagram" in ua:
+
+        browser = "Instagram Browser"
+
+        match = None
+
+
+    elif "facebook" in ua:
+
+        browser = "Facebook Browser"
+
+        match = None
 
 
     elif "chrome" in ua:
@@ -299,13 +266,6 @@ def get_browser_info(user_agent):
         match = re.search(
             r"chrome/([\d.]+)",
             ua
-        )
-
-        version = (
-            match.group(1)
-            if match
-            else
-            "Unknown"
         )
 
 
@@ -318,13 +278,6 @@ def get_browser_info(user_agent):
             ua
         )
 
-        version = (
-            match.group(1)
-            if match
-            else
-            "Unknown"
-        )
-
 
     elif "safari" in ua:
 
@@ -335,36 +288,21 @@ def get_browser_info(user_agent):
             ua
         )
 
-        version = (
-            match.group(1)
-            if match
-            else
-            "Unknown"
-        )
-
-
-    elif "whatsapp" in ua:
-
-        browser = "WhatsApp Browser"
-        version = "Unknown"
-
-
-    elif "instagram" in ua:
-
-        browser = "Instagram Browser"
-        version = "Unknown"
-
-
-    elif "facebook" in ua:
-
-        browser = "Facebook Browser"
-        version = "Unknown"
-
 
     else:
 
         browser = "Unknown Browser"
-        version = "Unknown"
+
+        match = None
+
+
+    if match:
+
+        browser_version = match.group(1)
+
+    else:
+
+        browser_version = "Unknown"
 
 
     # -------------------------
@@ -378,54 +316,64 @@ def get_browser_info(user_agent):
             ua
         )
 
-        os_name = (
-            f"Android {match.group(1)}"
-            if match
-            else
-            "Android"
-        )
+        if match:
+
+            operating_system = (
+                "Android "
+                + match.group(1)
+            )
+
+        else:
+
+            operating_system = "Android"
 
 
     elif "iphone" in ua:
 
-        os_name = "iOS iPhone"
+        operating_system = "iOS (iPhone)"
 
 
     elif "ipad" in ua:
 
-        os_name = "iOS iPad"
+        operating_system = "iOS (iPad)"
 
 
     elif "windows" in ua:
 
-        os_name = "Windows"
+        operating_system = "Windows"
 
 
     elif "mac os" in ua:
 
-        os_name = "macOS"
+        operating_system = "macOS"
 
 
     elif "linux" in ua:
 
-        os_name = "Linux"
+        operating_system = "Linux"
 
 
     else:
 
-        os_name = "Unknown OS"
+        operating_system = "Unknown OS"
 
 
     # -------------------------
     # DEVICE TYPE
     # -------------------------
 
-    if "iphone" in ua or "mobile" in ua:
+    if (
+        "iphone" in ua
+        or "mobile" in ua
+    ):
 
         device_type = "Mobile Phone"
 
 
-    elif "ipad" in ua or "tablet" in ua:
+    elif (
+        "ipad" in ua
+        or "tablet" in ua
+    ):
 
         device_type = "Tablet"
 
@@ -448,25 +396,26 @@ def get_browser_info(user_agent):
     # DEVICE MODEL
     # -------------------------
 
-    if "samsung" in ua or "sm-" in ua:
+    if (
+        "samsung" in ua
+        or "sm-" in ua
+    ):
 
         match = re.search(
             r"sm-([a-z0-9]+)",
             ua
         )
 
-        device_model = (
+        if match:
 
-            f"Samsung Galaxy "
-            f"{match.group(1).upper()}"
+            device_model = (
+                "Samsung Galaxy "
+                + match.group(1).upper()
+            )
 
-            if match
+        else:
 
-            else
-
-            "Samsung Galaxy"
-
-        )
+            device_model = "Samsung Galaxy"
 
 
     elif "pixel" in ua:
@@ -503,9 +452,9 @@ def get_browser_info(user_agent):
 
         "browser": browser,
 
-        "browser_version": version,
+        "browser_version": browser_version,
 
-        "os": os_name,
+        "os": operating_system,
 
         "device_type": device_type,
 
@@ -546,57 +495,77 @@ SUCCESS_PAGE = """
 
 
 # =====================================================
-# MAIN ROUTE
+# HOME ROUTE
 # =====================================================
 
 @app.route("/")
 def index():
 
-    # Get visitor IP
+
+    # Get IP
+
     ip = get_real_ip()
+
 
     print("\n")
     print("=" * 70)
-    print("NEW VISITOR")
+    print("NEW VISITOR DETECTED")
     print("=" * 70)
 
-    print("DETECTED IP:", ip)
+
+    print(
+        "DETECTED IP:",
+        ip
+    )
 
 
-    # Get geolocation
+    # Get location
+
     geo = get_geo_info(ip)
 
 
-    # Get User-Agent
+    # Get user agent
+
     user_agent = request.headers.get(
+
         "User-Agent",
+
         "Unknown"
+
     )
 
 
-    # Browser information
+    # Get browser/device
+
     browser = get_browser_info(
+
         user_agent
+
     )
 
 
-    # Time
+    # Timestamp
+
     timestamp = datetime.now().strftime(
+
         "%Y-%m-%d %H:%M:%S"
+
     )
 
 
-    # Print information
+    # -------------------------
+    # PRINT NETWORK
+    # -------------------------
 
     print("\nNETWORK INFORMATION")
     print("-" * 50)
 
-    print("IP:", ip)
 
     print(
-        "Hostname:",
-        geo["hostname"]
+        "IP:",
+        ip
     )
+
 
     print(
         "ASN:",
@@ -604,33 +573,49 @@ def index():
     )
 
 
+    print(
+        "Hostname:",
+        geo["hostname"]
+    )
+
+
+    # -------------------------
+    # PRINT LOCATION
+    # -------------------------
+
     print("\nLOCATION INFORMATION")
     print("-" * 50)
+
 
     print(
         "City:",
         geo["city"]
     )
 
+
     print(
         "Region:",
         geo["region"]
     )
+
 
     print(
         "Country:",
         geo["country"]
     )
 
+
     print(
         "Postal:",
         geo["postal"]
     )
 
+
     print(
         "Timezone:",
         geo["timezone"]
     )
+
 
     print(
         "Coordinates:",
@@ -638,13 +623,19 @@ def index():
     )
 
 
+    # -------------------------
+    # PRINT ISP
+    # -------------------------
+
     print("\nISP INFORMATION")
     print("-" * 50)
+
 
     print(
         "ISP:",
         geo["isp"]
     )
+
 
     print(
         "Organization:",
@@ -652,121 +643,176 @@ def index():
     )
 
 
+    # -------------------------
+    # PRINT DEVICE
+    # -------------------------
+
     print("\nDEVICE INFORMATION")
     print("-" * 50)
 
+
     print(
-        "Device:",
+        "Device Type:",
         browser["device_type"]
     )
 
+
     print(
-        "Model:",
+        "Device Model:",
         browser["device_model"]
     )
 
+
     print(
-        "OS:",
+        "Operating System:",
         browser["os"]
     )
 
 
+    # -------------------------
+    # PRINT BROWSER
+    # -------------------------
+
     print("\nBROWSER INFORMATION")
     print("-" * 50)
+
 
     print(
         "Browser:",
         browser["browser"]
     )
 
+
     print(
-        "Version:",
+        "Browser Version:",
         browser["browser_version"]
     )
 
 
+    # -------------------------
+    # USER AGENT
+    # -------------------------
+
     print("\nUSER-AGENT")
     print("-" * 50)
+
 
     print(user_agent)
 
 
+    # -------------------------
+    # TIME
+    # -------------------------
+
     print("\nTIME")
     print("-" * 50)
+
 
     print(timestamp)
 
 
-    print("\n" + "=" * 70)
+    print("\n")
+    print("=" * 70)
 
 
-    # Save log
+    # =================================================
+    # SAVE LOG
+    # =================================================
 
     with open(
+
         "visitors_log.txt",
+
         "a",
+
         encoding="utf-8"
+
     ) as file:
 
+
         file.write("\n")
-        file.write("=" * 70)
+
+        file.write(
+            "=" * 70
+        )
+
         file.write("\n")
+
 
         file.write(
             f"TIME: {timestamp}\n"
         )
 
+
         file.write(
             f"IP: {ip}\n"
         )
+
 
         file.write(
             f"CITY: {geo['city']}\n"
         )
 
+
         file.write(
             f"REGION: {geo['region']}\n"
         )
+
 
         file.write(
             f"COUNTRY: {geo['country']}\n"
         )
 
+
         file.write(
             f"ISP: {geo['isp']}\n"
         )
+
 
         file.write(
             f"ORG: {geo['org']}\n"
         )
 
+
         file.write(
             f"ASN: {geo['asn']}\n"
         )
+
 
         file.write(
             f"LOCATION: {geo['loc']}\n"
         )
 
-        file.write(
-            f"DEVICE: {browser['device_type']}\n"
-        )
 
         file.write(
-            f"MODEL: {browser['device_model']}\n"
+            f"DEVICE TYPE: "
+            f"{browser['device_type']}\n"
         )
+
+
+        file.write(
+            f"DEVICE MODEL: "
+            f"{browser['device_model']}\n"
+        )
+
 
         file.write(
             f"OS: {browser['os']}\n"
         )
 
-        file.write(
-            f"BROWSER: {browser['browser']}\n"
-        )
 
         file.write(
-            f"USER-AGENT: {user_agent}\n"
+            f"BROWSER: "
+            f"{browser['browser']} "
+            f"{browser['browser_version']}\n"
         )
+
+
+        file.write(
+            f"USER-AGENT: "
+            f"{user_agent}\n"
+        )
+
 
         file.write(
             "=" * 70
@@ -787,15 +833,29 @@ def index():
 @app.route("/view")
 def view():
 
+
     try:
 
+
         with open(
+
             "visitors_log.txt",
+
             "r",
+
             encoding="utf-8"
+
         ) as file:
 
+
             content = file.read()
+
+
+        # Escape HTML so log text is displayed safely
+
+        safe_content = html.escape(
+            content
+        )
 
 
         return f"""
@@ -814,7 +874,7 @@ def view():
 
             <h1>Visitor Logs</h1>
 
-            <pre>{content}</pre>
+            <pre>{safe_content}</pre>
 
         </body>
 
@@ -824,6 +884,7 @@ def view():
 
 
     except FileNotFoundError:
+
 
         return "No logs yet."
 
@@ -835,13 +896,20 @@ def view():
 @app.route("/stats")
 def stats():
 
+
     try:
 
+
         with open(
+
             "visitors_log.txt",
+
             "r",
+
             encoding="utf-8"
+
         ) as file:
+
 
             content = file.read()
 
@@ -852,8 +920,11 @@ def stats():
 
 
         ips = re.findall(
+
             r"IP: (.*?)\n",
+
             content
+
         )
 
 
@@ -897,6 +968,7 @@ def stats():
 
     except FileNotFoundError:
 
+
         return "No data yet."
 
 
@@ -906,11 +978,17 @@ def stats():
 
 if __name__ == "__main__":
 
+
     port = int(
+
         os.environ.get(
+
             "PORT",
+
             5000
+
         )
+
     )
 
 
